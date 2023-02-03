@@ -1,0 +1,8 @@
+inference: []
+training:
+- cfg: centroid.json
+  run_path: models/topdown_test230122_175416.centroid
+  train_labels: labels.v002.slp
+- cfg: centered_instance.json
+  run_path: models/topdown_test230122_175416.centered_instance
+  train_labels: labels.v002.slp
